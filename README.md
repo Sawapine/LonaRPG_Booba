@@ -49,6 +49,8 @@ Expanded the functionality of Elise's experimental items.
 
 Starting with this version the mod requires `UltraModManager` (UMM) for the scripts to work correctly.
 
+`PaletteChanger` is temporarily not working for this version.
+
 </details>
 
 <hr/>

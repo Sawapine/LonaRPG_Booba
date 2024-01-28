@@ -1,0 +1,38 @@
+[{
+		"name_order": ["subpose", "WoundSThigh"],
+		"part_name": "pose1_subpose1_WoundSThigh",
+		"x": "143",
+		"y": "302",
+		"layer": 300,
+		"bmps": {
+			"subpose01,WoundSThigh01": "pose1_subpose1_WoundSThigh1.png",
+			"subpose01,WoundSThigh02": "pose1_subpose1_WoundSThigh2.png",
+			"subpose01,WoundSThigh03": "pose1_subpose1_WoundSThigh3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "WoundSThigh"],
+		"part_name": "pose1_subpose2_WoundSThigh",
+		"x": "141",
+		"y": "280",
+		"layer": 300,
+		"bmps": {
+			"subpose02,WoundSThigh01": "pose1_subpose2_WoundSThigh1.png",
+			"subpose02,WoundSThigh02": "pose1_subpose2_WoundSThigh2.png",
+			"subpose02,WoundSThigh03": "pose1_subpose2_WoundSThigh3.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "WoundSThigh"],
+		"part_name": "pose1_subpose3_WoundSThigh",
+		"x": "143",
+		"y": "302",
+		"layer": 191,
+		"bmps": {
+			"subpose03,WoundSThigh01": "pose1_subpose1_WoundSThigh1.png",
+			"subpose03,WoundSThigh02": "pose1_subpose1_WoundSThigh2.png",
+			"subpose03,WoundSThigh03": "pose1_subpose1_WoundSThigh3.png"
+		}
+	}
+]

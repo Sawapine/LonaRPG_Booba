@@ -1,0 +1,10 @@
+[{
+	"name_order": ["MilkSplash"],
+	"part_name": "chcg5_MilkSplash",
+	"x": "674",
+	"y": "282",
+	"layer": 4050,
+	"bmps": {
+		"MilkSplash01": "chcg5_MilkSplash.png"
+	}
+}]

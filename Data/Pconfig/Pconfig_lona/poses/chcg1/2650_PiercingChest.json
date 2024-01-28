@@ -1,0 +1,25 @@
+[{
+		"name_order": ["subpose", "PiercingChest"],
+		"part_name": "chcg1_subpose1_PiercingChest",
+		"x": "451",
+		"y": "158",
+		"layer": 2650,
+		"bmps": {
+			"subpose01,PiercingChest01": "chcg1_subpose1_PiercingChest1.png",
+			"subpose01,PiercingChest02": "chcg1_subpose1_PiercingChest2.png",
+			"subpose01,PiercingChest03": "chcg1_subpose1_PiercingChest3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "PiercingChest"],
+		"part_name": "chcg1_subpose2_PiercingChest",
+		"x": "452",
+		"y": "142",
+		"layer": 2650,
+		"bmps": {
+			"subpose02,PiercingChest01": "chcg1_subpose2_PiercingChest1.png",
+			"subpose02,PiercingChest02": "chcg1_subpose2_PiercingChest2.png",
+			"subpose02,PiercingChest03": "chcg1_subpose2_PiercingChest3.png"
+		}
+	}
+]

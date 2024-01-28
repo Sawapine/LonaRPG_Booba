@@ -1,0 +1,32 @@
+[{
+	"name_order": ["WoundHead","Race"],
+	"part_name": "pose1_head_WoundHead",
+	"x": "119",
+	"y": "75",
+	"layer": 3200,
+	"bmps": {
+		"WoundHead01,Race#Human": "pose1_head_WoundHead1.png",
+		"WoundHead02,Race#Human": "pose1_head_WoundHead2.png",
+		"WoundHead03,Race#Human": "pose1_head_WoundHead3.png",
+		"WoundHead04,Race#Human": "pose1_head_WoundHead3.png"
+		
+	}
+},
+{
+	"name_order": ["WoundHead","Race"],
+	"part_name": "pose1_head_moot_WoundHead",
+	"x": "95",
+	"y": "74",
+	"layer": 3200,
+	"bmps": {
+		"WoundHead01,Race#Deepone": "pose1_head_moot_WoundHead1.png",
+		"WoundHead02,Race#Deepone": "pose1_head_moot_WoundHead2.png",
+		"WoundHead03,Race#Deepone": "pose1_head_moot_WoundHead3.png",
+		"WoundHead04,Race#Deepone": "pose1_head_moot_WoundHead3.png",
+		"WoundHead01,Race#Moot": "pose1_head_moot_WoundHead1.png",
+		"WoundHead02,Race#Moot": "pose1_head_moot_WoundHead2.png",
+		"WoundHead03,Race#Moot": "pose1_head_moot_WoundHead3.png",
+		"WoundHead04,Race#Moot": "pose1_head_moot_WoundHead3.png"
+	}
+}
+]

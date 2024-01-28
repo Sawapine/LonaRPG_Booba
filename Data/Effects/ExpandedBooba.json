@@ -1,0 +1,28 @@
+{
+  "attribute_change": [
+    {
+      "attribute_name": "sexy",
+      "attribute_type": "max",
+      "adjustor": "*",
+      "adjustment": "1.5"
+    },
+    {
+      "attribute_name": "weak",
+      "attribute_type": "max",
+      "adjustor": "*",
+      "adjustment": "1.5"
+    },
+    {
+      "attribute_name": "arousal",
+      "attribute_type": "max",
+      "adjustor": "*",
+      "adjustment": "1.5"
+    },
+    {
+      "attribute_name": "sta",
+      "attribute_type": "max",
+      "adjustor": "*",
+      "adjustment": "0.8"
+    }
+  ]
+}

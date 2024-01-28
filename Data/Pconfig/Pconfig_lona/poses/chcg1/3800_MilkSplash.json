@@ -1,0 +1,11 @@
+[{
+	"name_order": ["subpose","MilkSplash"],
+	"part_name": "chcg1_MilkSplash",
+	"x": "397",
+	"y": "38",
+	"layer": 3800,
+	"bmps": {
+		"subpose01,MilkSplash01": "chcg1_subpose1_MilkSplash.png",
+		"subpose02,MilkSplash01": "chcg1_subpose2_MilkSplash.png"
+	}
+}]

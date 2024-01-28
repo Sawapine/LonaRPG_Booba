@@ -1,0 +1,2 @@
+mod/description
+기본 몸체인 Lona의 Lona_Big_Belly 모드, GtcSetMod 또는 기타 의류/액세서리 모드와 호환되지 않습니다.

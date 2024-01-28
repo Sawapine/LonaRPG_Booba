@@ -4,7 +4,7 @@
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.
 
-Latest version: R2.5a1
+Latest version: R2.5a1 [pre-release]
 
 ## Requirements
 
@@ -16,9 +16,9 @@ UltraModManager (since R2.5)
 <details>
 <summary>Changelog</summary>
 
-- 02.06: Added support (partial) for Dancer outfit.
+- R1.5: Added support (partial) for Dancer outfit.
   
-- 04.06:
+- R1.8:
 
 Fixed some color issues and adjusted the wound sprites.
 

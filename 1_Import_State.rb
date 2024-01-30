@@ -16,7 +16,7 @@ module DataManager
       state.description = $game_text["booba:booba:#{state.item_name}/description"]
       state.icon_index = $mod_manager.get_resource("booba", "icons/#{state.item_name}.png")
       $data_StateName[state.item_name] = state
-    end
+	end
 
     items = load_data($mod_manager.get_resource("booba", "Items.rvdata2"))
     items.each do |item|
@@ -29,8 +29,14 @@ module DataManager
       item.icon_index = $mod_manager.get_resource("booba", "icons/#{item.item_name}.png")
       $data_ItemName[item.item_name] = item
     end
-    $data_ItemName["AddModExpandedBooba"].effects[0].data_id = $data_StateName["Mod_ExpandedBooba"].id
-    $data_ItemName["AidModExpandedBooba"].effects[0].data_id = $data_StateName["Mod_ExpandedBooba"].id
+    if $data_ItemName["AddModExpandedBooba"].effects[0]
+  $data_ItemName["AddModExpandedBooba"].effects[0].data_id = $data_StateName["Mod_ExpandedBooba"].id
+end
+
+if $data_ItemName["AidModExpandedBooba"].effects[0]
+  $data_ItemName["AidModExpandedBooba"].effects[0].data_id = $data_StateName["Mod_ExpandedBooba"].id
+end
+
     $mod_load_script["Data/HCGframes/event/NoerGynecologyEliseDay.rb"] = "ModScripts/_Mods/Lona_Booba_Graphics/Data/HCGframes/event/NoerGynecologyEliseDay.rb"
   end
 end

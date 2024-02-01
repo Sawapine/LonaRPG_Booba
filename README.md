@@ -9,7 +9,7 @@ Latest version: R2.4
 ## Requirements
 
 Minimum required game version: `0.8.7.x`<br/>
-[UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (since R2.5a1)
+[UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (since R2.5'x)
 
 ## Changelog
 

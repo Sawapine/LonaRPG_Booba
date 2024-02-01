@@ -41,6 +41,54 @@ end
   end
 end
 
+
+
+class Game_Actor < Game_Battler
+  alias_method :add_state_expanded_booba, :add_state
+  alias_method :remove_state_expanded_booba, :remove_state
+
+  def add_state(state_id)
+    add_state_expanded_booba(state_id)
+    check_and_apply_booba_graphics_changes
+  end
+
+  def remove_state(state_id)
+    remove_state_expanded_booba(state_id)
+    check_and_apply_booba_graphics_changes
+  end
+
+  def check_and_apply_booba_graphics_changes
+    if states.include?($data_StateName["Mod_ExpandedBooba"])
+      apply_booba_graphics_changes
+    else
+      remove_booba_graphics_changes
+    end
+  end
+
+  def apply_booba_graphics_changes
+    BitmapChanger.load_setting_file("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/10_DEFAULT_Transformations_BOOBA.json")
+    BitmapChanger.load_setting_file("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/9999_DEFAULT_Races_BOOBA.json")
+  end
+
+  def remove_booba_graphics_changes
+    BitmapChanger.load_setting_file("ModScripts/PaletteChanger/10_DEFAULT_Transformations.json")
+    BitmapChanger.load_setting_file("ModScripts/PaletteChanger/9999_DEFAULT_Races.json")
+  end
+end
+
+class Scene_Load < Scene_File
+  alias_method :on_load_success_expanded_booba, :on_load_success
+
+  def on_load_success
+    on_load_success_expanded_booba
+    $game_party.members.each(&:check_and_apply_booba_graphics_changes)
+  end
+end
+
+
+
+
+
 module FileGetter
   def self.preprocess_lona_booba_pose_json(lona_json, booba_json)
     json = []

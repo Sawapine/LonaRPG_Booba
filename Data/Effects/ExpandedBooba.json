@@ -16,13 +16,31 @@
       "attribute_name": "arousal",
       "attribute_type": "max",
       "adjustor": "*",
-      "adjustment": "1.5"
+      "adjustment": "1.3"
     },
     {
       "attribute_name": "sta",
       "attribute_type": "max",
       "adjustor": "*",
-      "adjustment": "0.8"
-    }
+      "adjustment": "0.9"
+    },
+	{
+		"attribute_name": "constitution_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "4"
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "2"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.95"
+	}
   ]
 }

@@ -1,9 +1,9 @@
-Booba (R2.5a1 for v0.8.7.0+; [use R2.3 for older ver of the game])
-Not compatible with the Lona_Big_Belly mod, GtcSetMod, or any other clothing/accessory mods designed for use with Lona's default body.
-
-Credits:
-Thanks to the HY for Base Body CG's and Hunter outfit 
-Pose_Replacer script by 카나리아
-Everything, except what I specified above, by me (Ricordi) https://f95zone.to/threads/lonarpg-vbeta-0-8-1-1-eccma417.49993/post-10907800
+Booba (R2.5a2 for v0.8.7.0+; [use R2.3 for older ver of the game])
+= f95zone.to/posts/10907800/ =
+Big thanks to:
+@HY from arca.live for Base body sprites set and Hunter outfit.
+@카나리아 for Pose_Replacer script.
+UltraRev for bringing huge chunk of immersion to the mod by reimagining the 'image delivery' code + UMM.
+Ricordi for continuing @HY's work on sprite redrawing and other visual stuff.
 
 

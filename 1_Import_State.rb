@@ -66,13 +66,19 @@ class Game_Actor < Game_Battler
   end
 
   def apply_booba_graphics_changes
-    BitmapChanger.load_setting_file("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/10_DEFAULT_Transformations_BOOBA.json")
-    BitmapChanger.load_setting_file("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/9999_DEFAULT_Races_BOOBA.json")
+    load_booba_graphics_changes("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/")
   end
 
   def remove_booba_graphics_changes
-    BitmapChanger.load_setting_file("ModScripts/PaletteChanger/10_DEFAULT_Transformations.json")
-    BitmapChanger.load_setting_file("ModScripts/PaletteChanger/9999_DEFAULT_Races.json")
+    load_booba_graphics_changes("ModScripts/PaletteChanger/")
+  end
+
+  private
+
+  def load_booba_graphics_changes(folder)
+    Dir.glob("#{folder}*.json").each do |file|
+      BitmapChanger.load_setting_file(file)
+    end
   end
 end
 
@@ -81,9 +87,10 @@ class Scene_Load < Scene_File
 
   def on_load_success
     on_load_success_expanded_booba
-    $game_party.members.each(&:check_and_apply_booba_graphics_changes)
+    $game_party.members.each { |member| member.check_and_apply_booba_graphics_changes }
   end
 end
+
 
 
 

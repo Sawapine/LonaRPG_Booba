@@ -43,34 +43,40 @@ end
 
 
 
+$last_scene = nil
+
+class Scene_Base
+  alias_method :initialize_expanded_booba, :initialize
+
+  def initialize
+    initialize_expanded_booba
+    $last_scene = self
+  end
+end
+
+
 class Game_Actor < Game_Battler
   alias_method :add_state_expanded_booba, :add_state
   alias_method :remove_state_expanded_booba, :remove_state
 
   def add_state(state_id)
     add_state_expanded_booba(state_id)
-    check_and_apply_booba_graphics_changes
+    check_and_apply_booba_graphics_changes(state_id)
   end
 
   def remove_state(state_id)
     remove_state_expanded_booba(state_id)
-    check_and_apply_booba_graphics_changes
+    check_and_apply_booba_graphics_changes(state_id)
   end
 
-  def check_and_apply_booba_graphics_changes
+  def check_and_apply_booba_graphics_changes(state_id)
+    return unless state_id == $data_StateName["Mod_ExpandedBooba"].id
+
     if states.include?($data_StateName["Mod_ExpandedBooba"])
-      apply_booba_graphics_changes
+      load_booba_graphics_changes("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/")
     else
-      remove_booba_graphics_changes
+      load_booba_graphics_changes("ModScripts/PaletteChanger/")
     end
-  end
-
-  def apply_booba_graphics_changes
-    load_booba_graphics_changes("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/")
-  end
-
-  def remove_booba_graphics_changes
-    load_booba_graphics_changes("ModScripts/PaletteChanger/")
   end
 
   private
@@ -87,11 +93,11 @@ class Scene_Load < Scene_File
 
   def on_load_success
     on_load_success_expanded_booba
-    $game_party.members.each { |member| member.check_and_apply_booba_graphics_changes }
+    $game_party.members.each do |member|
+      member.check_and_apply_booba_graphics_changes($data_StateName["Mod_ExpandedBooba"].id)
+    end
   end
 end
-
-
 
 
 

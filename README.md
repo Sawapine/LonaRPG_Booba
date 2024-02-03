@@ -4,12 +4,12 @@
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.
 
-Latest version: R2.4
+Latest version: R2.5
 
 ## Requirements
 
 Minimum required game version: `0.8.7.x`<br/>
-[UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (since R2.5'x)
+[UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (since R2.5)
 
 ## Changelog
 
@@ -41,7 +41,7 @@ It also generates corresponding .bat file, which can be used to quickly delete t
 
   Added experimental items to Gynecologist.
 
-- R2.5a1
+- R2.5
 
 Redesigned the 'image delivery' method to be more immersive. Lona's breasts can now be enlarged after certain conditions are met.
 
@@ -49,7 +49,13 @@ Expanded the functionality of Elise's experimental items.
 
 Starting with this version the mod requires `UltraModManager` (UMM) for the scripts to work correctly.
 
-`PaletteChanger` is temporarily not working for this version.
+`PaletteChanger` function is still unstable, but changes to the skin color of races and the sea witch are already working. Potential bugs are expected.
+
+!!! Other mods that change clothing colors, skin, etc., now require additional patches for compatibility.
+Use 100_DESU_Clothes_BOOBA.json as an example in the Lona_Booba_Graphics\PaletteChanger\unactive_jsons\DESU folder. The mod considers as active only those Json files that are in Lona_Booba_Graphics\PaletteChanger folder.
+(I currently do not know how to solve this problem in another way). :confused: –––> Suggestions are welcome.
+
+---- To remove the mod in the middle of the game you need to get rid of the "Expanded Booba" effect and, if available, the items "AddModExpandedBooba" and "AidModExpandedBooba" (items should be removed only through the cheat menu; in no case, do not throw out of the inventory).
 
 </details>
 

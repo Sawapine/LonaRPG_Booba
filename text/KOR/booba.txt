@@ -1,2 +1,26 @@
 mod/description
 기본 몸체인 Lona의 Lona_Big_Belly 모드, GtcSetMod 또는 기타 의류/액세서리 모드와 호환되지 않습니다.
+
+AddModExpandedBooba/item_name
+MOD (Booba)
+
+AddModExpandedBooba/description
+\}They are much bigger than my heart.\n
+\C[2]Decreases negative effects on HP.\n
+\C[6]Increases Sexy.\n
+
+AidModExpandedBooba/item_name
+Aid (Booba)
+
+AidModExpandedBooba/description
+\}Removes this MOD.\n
+\C[4]Performed after completion of transaction.\n
+
+Mod_ExpandedBooba/item_name
+Expanded Booba
+
+Mod_ExpandedBooba/description
+\n
+\}They are much bigger than my heart.\n
+\C[2]Decreases negative effects on HP.\n
+\C[6]Increases Sexy.

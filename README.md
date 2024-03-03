@@ -61,6 +61,11 @@ Use 100_DESU_Clothes_BOOBA.json as an example in the Lona_Booba_Graphics\Palette
 - **R.2.5.1**
 Adjusted some sprites related to pose1, chcg1, and chcg5.
 
+- **R2.5.2**
+
+Tweaked some stats like sexuality, etc.
+Made sprites with partial transparency even more transparent to match their original degree of transparency. (This is a temporary measure until a method for delivering modified images with their transparency intact via code is found).
+
 </details>
 
 <hr/>

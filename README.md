@@ -5,7 +5,7 @@
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.
 
-Latest version: R2.5.1
+Latest version: R2.5.3
 
 ## Requirements
 
@@ -17,13 +17,14 @@ Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.x` (R2.5)<br/>
 <details>
 <summary>Changelog</summary>
 
-- **R1.5:** Added support (partial) for Dancer outfit.
-  
-- **R1.8:**
+- **Update 02.06 – 04.06  .2023:**
+
+Added support (partial) for Dancer outfit.
 
 Fixed some color issues and adjusted the wound sprites.
 
 Added support for dark nipple areolas and made other minor changes.
+
 - **R2:** corrected the sprites of `AdvMid` to ensure proper display when the color palette is modified.
 - **R2.2:** minor cosmetic changes+fixes to the default clothing and body.
 - added `PaletteMover.rb` script that copies the necessary .json files with palette parameter settings to PaletteChanger folder, enabling color changes to affect the displayed belly as shown above.
@@ -65,6 +66,10 @@ Adjusted some sprites related to pose1, chcg1, and chcg5.
 
 Tweaked some stats like sexuality, etc.
 Made sprites with partial transparency even more transparent to match their original degree of transparency. (This is a temporary measure until a method for delivering modified images with their transparency intact via code is found).
+
+- **R2.5.3**
+
+Removed the crutches from the code responsible for loading palettes. Now the Mod should work more correctly with custom palettes, however, additional actions for this are still necessary (see the example in 100_DESU_Body_BOOBA.json in the Lona_Booba_Graphics/PaletteChanger/unactive_jsons/DESU folder).
 
 </details>
 

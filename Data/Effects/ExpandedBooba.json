@@ -1,46 +1,52 @@
 {
   "attribute_change": [
+  {
+      "attribute_name": "sexy",
+      "attribute_type": "max",
+      "adjustor": "+",
+      "adjustment": "20"
+    },
     {
       "attribute_name": "sexy",
       "attribute_type": "max",
       "adjustor": "*",
-      "adjustment": "1.5"
+      "adjustment": "1.8"
     },
     {
       "attribute_name": "weak",
       "attribute_type": "max",
       "adjustor": "*",
-      "adjustment": "1.5"
+      "adjustment": "1.275"
     },
-    {
-      "attribute_name": "arousal",
-      "attribute_type": "max",
-      "adjustor": "*",
-      "adjustment": "1.3"
-    },
+	{
+		"attribute_name": "will",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.315"
+	},
     {
       "attribute_name": "sta",
       "attribute_type": "max",
-      "adjustor": "*",
-      "adjustment": "0.9"
+      "adjustor": "-",
+      "adjustment": "10"
     },
 	{
 		"attribute_name": "constitution_plus",
-		"attribute_type": "max",
+		"attribute_type": "min",
 		"adjustor": "+",
-		"adjustment": "4"
+		"adjustment": "6"
 	},
 	{
 		"attribute_name": "wisdom_plus",
 		"attribute_type": "max",
 		"adjustor": "-",
-		"adjustment": "2"
+		"adjustment": "4"
 	},
 	{
 		"attribute_name": "move_speed",
 		"attribute_type": "max",
-		"adjustor": "*",
-		"adjustment": "0.95"
+		"adjustor": "-",
+		"adjustment": "0.25"
 	}
   ]
 }

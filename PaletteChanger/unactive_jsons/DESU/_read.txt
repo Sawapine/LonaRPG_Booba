@@ -1,0 +1,4 @@
+DESU MOD should be installed but not activated via UMM or Nyx Launcher.
+
+Choose and drop these .json files into */ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger* folder.
+

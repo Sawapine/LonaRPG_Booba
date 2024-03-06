@@ -38,67 +38,14 @@ if $data_ItemName["AidModExpandedBooba"].effects[0]
 end
 
     $mod_load_script["Data/HCGframes/event/NoerGynecologyEliseDay.rb"] = "ModScripts/_Mods/Lona_Booba_Graphics/Data/HCGframes/event/NoerGynecologyEliseDay.rb"
-  end
-end
-
-
-
-$last_scene = nil
-
-class Scene_Base
-  alias_method :initialize_expanded_booba, :initialize
-
-  def initialize
-    initialize_expanded_booba
-    $last_scene = self
-  end
-end
-
-
-class Game_Actor < Game_Battler
-  alias_method :add_state_expanded_booba, :add_state
-  alias_method :remove_state_expanded_booba, :remove_state
-
-  def add_state(state_id)
-    add_state_expanded_booba(state_id)
-    check_and_apply_booba_graphics_changes(state_id)
-  end
-
-  def remove_state(state_id)
-    remove_state_expanded_booba(state_id)
-    check_and_apply_booba_graphics_changes(state_id)
-  end
-
-  def check_and_apply_booba_graphics_changes(state_id)
-    return unless state_id == $data_StateName["Mod_ExpandedBooba"].id
-
-    if states.include?($data_StateName["Mod_ExpandedBooba"])
-      load_booba_graphics_changes("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/")
-    else
-      load_booba_graphics_changes("ModScripts/PaletteChanger/")
-    end
-  end
-
-  private
-
-  def load_booba_graphics_changes(folder)
-    Dir.glob("#{folder}*.json").each do |file|
-      BitmapChanger.load_setting_file(file)
+	
+	palette_list = Dir.glob('ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/*.json')
+    palette_list.reverse!
+    palette_list.each do |json_path|
+      BitmapChanger.load_setting_file(json_path)
     end
   end
 end
-
-class Scene_Load < Scene_File
-  alias_method :on_load_success_expanded_booba, :on_load_success
-
-  def on_load_success
-    on_load_success_expanded_booba
-    $game_party.members.each do |member|
-      member.check_and_apply_booba_graphics_changes($data_StateName["Mod_ExpandedBooba"].id)
-    end
-  end
-end
-
 
 
 

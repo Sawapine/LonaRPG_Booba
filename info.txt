@@ -1,9 +1,9 @@
-Booba (R2.5a2 for v0.8.7.0+; [use R2.3 for older ver of the game])
-= f95zone.to/posts/10907800/ =
+Booba (R2.5.3 for v0.8.9.0+; [use R2.4 for 0.8.7.0 – 0.8.8.3 or R2.3 for older ver of the game])
+Requires UltraModManager
 Big thanks to:
 @HY from arca.live for Base body sprites set and Hunter outfit.
 @카나리아 for Pose_Replacer script.
-UltraRev for bringing huge chunk of immersion to the mod by reimagining the 'image delivery' code + UMM.
+UltraRev for reimagining the 'image delivery' code + UMM support.
 Ricordi for continuing @HY's work on sprite redrawing and other visual stuff.
-
+= f95zone.to/posts/10907800/ =
 

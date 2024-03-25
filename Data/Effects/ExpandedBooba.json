@@ -1,4 +1,10 @@
 {
+	"textFlag": {
+			"folder": "ModScripts/_Mods/Lona_Booba_Graphics/text",
+			"name": "booba:Mod_ExpandedBooba/item_name",
+			"description": "booba:Mod_ExpandedBooba/description"
+		},
+	"icon_index": "ModScripts/_Mods/Lona_Booba_Graphics/icons/Mod_ExpandedBooba.png",
   "attribute_change": [
   {
       "attribute_name": "sexy",
@@ -41,6 +47,12 @@
 		"attribute_type": "max",
 		"adjustor": "-",
 		"adjustment": "4"
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "2"
 	},
 	{
 		"attribute_name": "move_speed",

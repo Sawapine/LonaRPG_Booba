@@ -1,4 +1,4 @@
-Booba (R2.5.3 for v0.8.9.0+; [use R2.4 for 0.8.7.0 – 0.8.8.3 or R2.3 for older ver of the game])
+Booba (R2.6 for v0.8.9.0+; [use R2.4 for 0.8.7.0 – 0.8.8.3 or R2.3 for older ver of the game])
 Requires UltraModManager
 Big thanks to:
 @HY from arca.live for Base body sprites set and Hunter outfit.

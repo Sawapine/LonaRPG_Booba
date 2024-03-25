@@ -11,6 +11,68 @@
 			"subpose01,preg03,equip_Mid#AdvMid": "pose1_subpose1_preg8m_equip_AdvMid.png"
 		}
 	},
+	
+	
+	
+	
+	
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose1_equip_AdvTop",
+		"x": "65",
+		"y": "152",
+		"layer": 1790,
+		"bmps": {
+			"subpose01,preg00,equip_Top#AdvTop": "pose1_subpose1_equip_AdvTop+.png",
+			"subpose01,preg01,equip_Top#AdvTop": "pose1_subpose1_preg4m_equip_AdvTop+.png",
+			"subpose01,preg02,equip_Top#AdvTop": "pose1_subpose1_preg6m_equip_AdvTop+.png",
+			"subpose01,preg03,equip_Top#AdvTop": "pose1_subpose1_preg8m_equip_AdvTop+.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose3_equip_AdvTop",
+		"x": "56",
+		"y": "150",
+		"layer": 1790,
+		"bmps": {
+			"subpose03,preg00,equip_Top#AdvTop": "pose1_subpose3_equip_AdvTop+.png",
+			"subpose03,preg01,equip_Top#AdvTop": "pose1_subpose3_equip_AdvTop+.png",
+			"subpose03,preg02,equip_Top#AdvTop": "pose1_subpose3_preg6m_equip_AdvTop+.png",
+			"subpose03,preg03,equip_Top#AdvTop": "pose1_subpose3_preg8m_equip_AdvTop+.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose1_equip_RagTop",
+		"x": "42",
+		"y": "154",
+		"layer": 1790,
+		"bmps": {
+			"subpose01,preg00,equip_Top#RagTop": "pose1_subpose1_equip_RagTop+.png",
+			"subpose01,preg01,equip_Top#RagTop": "pose1_subpose1_preg4m_equip_RagTop+.png",
+			"subpose01,preg02,equip_Top#RagTop": "pose1_subpose1_preg6m_equip_RagTop+.png",
+			"subpose01,preg03,equip_Top#RagTop": "pose1_subpose1_preg8m_equip_RagTop+.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose3_equip_RagTop",
+		"x": "40",
+		"y": "150",
+		"layer": 1790,
+		"bmps": {
+			"subpose03,preg00,equip_Top#RagTop": "pose1_subpose3_equip_RagTop+.png",
+			"subpose03,preg01,equip_Top#RagTop": "pose1_subpose3_preg4m_equip_RagTop+.png",
+			"subpose03,preg02,equip_Top#RagTop": "pose1_subpose3_preg6m_equip_RagTop+.png",
+			"subpose03,preg03,equip_Top#RagTop": "pose1_subpose3_preg8m_equip_RagTop+.png"
+		}
+	},
+	
+	
+	
+	
+	
 	{
 		"name_order": ["subpose", "preg", "equip_Mid"],
 		"part_name": "pose1_subpose2_equip_AdvMid",
@@ -44,7 +106,7 @@
 	{
 		"name_order": ["subpose", "preg", "equip_Mid"],
 		"part_name": "pose1_subpose1_equip_RagMid",
-		"x": "69",
+		"x": "67",
 		"y": "164",
 		"layer": 1800,
 		"bmps": {
@@ -70,7 +132,7 @@
 	{
 		"name_order": ["subpose", "preg", "equip_Mid"],
 		"part_name": "pose1_subpose3_equip_RagMid",
-		"x": "67",
+		"x": "65",
 		"y": "169",
 		"layer": 1800,
 		"bmps": {

@@ -15,8 +15,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose5_subpose1_MelaninMNipple",
-		"x": "93",
-		"y": "210",
+		"x": "90",
+		"y": "204",
 		"layer": 250,
 		"bmps": {
 			"subpose01": "pose5_subpose1_MelaninMNipple.png"
@@ -27,8 +27,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose5_subpose1_MelaninSNipple",
-		"x": "139",
-		"y": "217",
+		"x": "129",
+		"y": "207",
 		"layer": 250,
 		"bmps": {
 			"subpose01": "pose5_subpose1_MelaninSNipple.png"

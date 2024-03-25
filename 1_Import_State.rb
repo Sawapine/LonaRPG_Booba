@@ -1,3 +1,8 @@
+    if $mod_manager.nil?
+      msgbox("Ultra Mod Manager is not installed. Please install it for LONA BIG BOOBA to work.")
+      return false
+    end
+
 module DataManager
   class << self
     alias_method :load_mod_database_Lona_Booba_Graphics, :load_mod_database
@@ -12,9 +17,9 @@ module DataManager
       $data_states << state
       state.load_additional_data
       state.id = $data_states.length - 1
-      state.name = $game_text["booba:booba:#{state.item_name}/item_name"]
-      state.description = $game_text["booba:booba:#{state.item_name}/description"]
-      state.icon_index = $mod_manager.get_resource("booba", "icons/#{state.item_name}.png")
+      #state.name = $game_text["booba:booba:#{state.item_name}/item_name"]            #old way to deliver info (moved to json), but still works
+      #state.description = $game_text["booba:booba:#{state.item_name}/description"]            #old way to deliver info (moved to json), but still works
+      #state.icon_index = $mod_manager.get_resource("booba", "icons/#{state.item_name}.png")   #old way to deliver info (moved to json), but still works
       $data_StateName[state.item_name] = state
 	end
 
@@ -24,9 +29,9 @@ module DataManager
       $data_items << item
       item.load_additional_data
       item.id = $data_items.length - 1
-      item.name = $game_text["booba:booba:#{item.item_name}/item_name"]
-      item.description = $game_text["booba:booba:#{item.item_name}/description"]
-      item.icon_index = $mod_manager.get_resource("booba", "icons/#{item.item_name}.png")
+      #item.name = $game_text["booba:booba:#{item.item_name}/item_name"]           #old way to deliver info (moved to json), but still works
+      #item.description = $game_text["booba:booba:#{item.item_name}/description"]           #old way to deliver info (moved to json), but still works
+      #item.icon_index = $mod_manager.get_resource("booba", "icons/#{item.item_name}.png")  #old way to deliver info (moved to json), but still works
       $data_ItemName[item.item_name] = item
     end
     if $data_ItemName["AddModExpandedBooba"].effects[0]

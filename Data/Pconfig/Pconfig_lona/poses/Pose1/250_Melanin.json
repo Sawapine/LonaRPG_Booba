@@ -16,8 +16,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose1_subpose1_MelaninMNipple",
-		"x": "67",
-		"y": "222",
+		"x": "66",
+		"y": "216",
 		"layer": 250,
 		"bmps": {
 			"subpose01": "pose1_subpose1_MelaninMNipple.png"
@@ -28,8 +28,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose1_subpose1_MelaninSNipple",
-		"x": "123",
-		"y": "226",
+		"x": "121",
+		"y": "215",
 		"layer": 250,
 		"bmps": {
 			"subpose01": "pose1_subpose1_MelaninSNipple.png"
@@ -40,8 +40,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose1_subpose2_MelaninMNipple",
-		"x": "96",
-		"y": "212",
+		"x": "94",
+		"y": "207",
 		"layer": 250,
 		"bmps": {
 			"subpose02": "pose1_subpose2_MelaninMNipple.png"
@@ -52,8 +52,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose1_subpose2_MelaninSNipple",
-		"x": "138",
-		"y": "223",
+		"x": "133",
+		"y": "214",
 		"layer": 250,
 		"bmps": {
 			"subpose02": "pose1_subpose2_MelaninSNipple.png"
@@ -64,8 +64,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose1_subpose3_MelaninMNipple",
-		"x": "64",
-		"y": "225",
+		"x": "63",
+		"y": "219",
 		"layer": 250,
 		"bmps": {
 			"subpose03": "pose1_subpose3_MelaninMNipple.png"
@@ -76,8 +76,8 @@
 		"isDirt": true,
 		"dirtKey":"MelaninNipple",
 		"part_name": "pose1_subpose3_MelaninSNipple",
-		"x": "119",
-		"y": "229",
+		"x": "118",
+		"y": "220",
 		"layer": 250,
 		"bmps": {
 			"subpose03": "pose1_subpose3_MelaninSNipple.png"

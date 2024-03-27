@@ -1,6 +1,7 @@
 # LonaRPG Booba Mod
 
-![preview](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/a44c1186-dcff-4cff-8b45-1a59e24c7072)
+![preview-nipp](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/cd9c61fe-c9dd-4076-bf61-ec9f79fa7805)
+
 
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.

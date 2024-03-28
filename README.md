@@ -13,7 +13,7 @@ All subsequent versions of the mod starting with `RC` will imply only cosmetic c
 
 ## Requirements
 
-Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.x` (R2.5)<br/>
+Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.1` (R2.6)<br/>
 [UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (since R2.4)
 
 ## Changelog

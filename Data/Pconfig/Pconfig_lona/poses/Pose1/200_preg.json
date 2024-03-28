@@ -1,0 +1,57 @@
+[{
+    "name_order": ["subpose", "preg"],
+    "part_name": "pose1_subpose1_preg",
+    "x": "72",
+    "y": "233",
+    "layer": 200,
+    "bmps": {
+        "subpose01,preg01": "pose1_subpose1_preg4m.png",
+        "subpose01,preg02": "pose1_subpose1_preg6m.png"
+    }
+},
+{
+    "name_order": ["subpose", "preg"],
+    "part_name": "pose1_subpose1_preg",
+    "x": "62",
+    "y": "233",
+    "layer": 200,
+    "bmps": {
+        "subpose01,preg03": "pose1_subpose3_preg8m.png"
+    }
+},
+	{
+		"name_order": ["subpose", "preg"],
+		"part_name": "pose1_subpose2_preg",
+		"x": "99",
+		"y": "257",
+		"layer": 200,
+		"bmps": {
+			"subpose02,preg01": "pose1_subpose2_preg4m.png",
+			"subpose02,preg02": "pose1_subpose2_preg4m.png",
+			"subpose02,preg03": "pose1_subpose2_preg4m.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "preg"],
+		"part_name": "pose1_subpose3_preg",
+		"x": "72",
+		"y": "233",
+		"layer": 200,
+		"bmps": {
+			"subpose03,preg01": "pose1_subpose1_preg4m.png",
+			"subpose03,preg02": "pose1_subpose1_preg6m.png",
+			
+		}
+	},
+	{
+    "name_order": ["subpose", "preg"],
+    "part_name": "pose1_subpose3_preg",
+    "x": "62",
+    "y": "233",
+    "layer": 200,
+    "bmps": {
+        "subpose03,preg03": "pose1_subpose1_preg8m.png"
+    }
+}
+]

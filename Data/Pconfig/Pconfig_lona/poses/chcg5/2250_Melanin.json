@@ -1,0 +1,27 @@
+[	
+	{
+		"name_order": ["always"],
+		"isDirt": true,
+		"dirtKey":"MelaninNipple",
+		"part_name": "chcg5_MelaninSNipple",
+		"x": "718",
+		"y": "418",
+		"layer": 2250,
+		"bmps": {
+			"always#on": "chcg5_MelaninSNipple.png"
+		}
+	},
+	{
+		"name_order": ["always"],
+		"isDirt": true,
+		"dirtKey":"MelaninNipple",
+		"part_name": "chcg5_MelaninMNipple",
+		"x": "680",
+		"y": "479",
+		"layer": 2250,
+		"bmps": {
+			"always#on": "chcg5_MelaninMNipple.png"
+		}
+	}
+
+]

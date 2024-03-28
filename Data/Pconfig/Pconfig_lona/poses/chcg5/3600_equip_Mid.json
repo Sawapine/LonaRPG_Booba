@@ -1,0 +1,73 @@
+[{
+		"name_order": ["preg", "equip_Mid"],
+		"part_name": "chcg5_equip_AdvMid.",
+		"x": "371",
+		"y": "291",
+		"layer": 3600,
+		"bmps": {
+			"preg00,equip_Mid#AdvMid": "chcg5_equip_AdvMid.png",
+			"preg01,equip_Mid#AdvMid": "chcg5_preg4m_equip_AdvMid.png",
+			"preg02,equip_Mid#AdvMid": "chcg5_preg6m_equip_AdvMid.png",
+			"preg03,equip_Mid#AdvMid": "chcg5_preg8m_equip_AdvMid.png"
+		}
+	},
+	{
+		"name_order": ["preg", "equip_Mid"],
+		"part_name": "chcg5_equip_RagMid",
+		"x": "349",
+		"y": "275",
+		"layer": 3600,
+		"bmps": {
+			"preg00,equip_Mid#RagMid": "chcg5_equip_RagMid.png",
+			"preg01,equip_Mid#RagMid": "chcg5_preg4m_equip_RagMid.png",
+			"preg02,equip_Mid#RagMid": "chcg5_preg6m_equip_RagMid.png",
+			"preg03,equip_Mid#RagMid": "chcg5_preg8m_equip_RagMid.png"
+		}
+	},
+	{
+		"name_order": ["preg", "equip_Mid"],
+		"part_name": "chcg5_equip_SurMid",
+		"x": "371",
+		"y": "291",
+		"layer": 3600,
+		"bmps": {
+			"preg00,equip_Mid#SurMid": "chcg5_equip_SurMid.png",
+			"preg01,equip_Mid#SurMid": "chcg5_preg4m_equip_SurMid.png",
+			"preg02,equip_Mid#SurMid": "chcg5_preg6m_equip_SurMid.png",
+			"preg03,equip_Mid#SurMid": "chcg5_preg8m_equip_SurMid.png"
+		}
+	},
+	{
+		"name_order": ["equip_Mid"],
+		"part_name": "chcg5_equip_DancerMid",
+		"x": "387",
+		"y": "331",
+		"layer": 3600,
+		"bmps": {
+			"equip_Mid#DancerMid": "chcg5_equip_DancerMid.png"
+		}
+	},
+	{
+		"name_order": ["preg", "equip_Mid"],
+		"part_name": "chcg5_equip_SexyMid",
+		"x": "400",
+		"y": "340",
+		"layer": 3600,
+		"bmps": {
+			"preg00,equip_Mid#SexyMid": "chcg5_equip_SexyMid.png",
+			"preg01,equip_Mid#SexyMid": "chcg5_preg4m_equip_SexyMid.png",
+			"preg02,equip_Mid#SexyMid": "chcg5_preg6m_equip_SexyMid.png",
+			"preg03,equip_Mid#SexyMid": "chcg5_preg8m_equip_SexyMid.png"
+		}
+	},
+	{
+		"name_order": ["equip_Mid"],
+		"part_name": "chcg5_equip_FootmanMid",
+		"x": "375",
+		"y": "210",
+		"layer": 3600,
+		"bmps": {
+			"equip_Mid#FootmanMid": "chcg5_equip_FootmanMid.png"
+		}
+	}
+]

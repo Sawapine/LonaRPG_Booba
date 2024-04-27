@@ -1,20 +1,19 @@
 # LonaRPG Booba Mod
 
-![preview-nipp](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/cd9c61fe-c9dd-4076-bf61-ec9f79fa7805)
-
+![preview](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/a8e70941-aecd-4f29-a59b-a613b7607456)
 
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.
 
-Latest version: **R2.6**
+Latest version: **R2.7**
 
 **RC2.3.x** is intended for those who are solely interested in visual changes to Lona, without the addition of new heavy script mechanics, items, etc.
 All subsequent versions of the mod starting with `RC` will imply only cosmetic changes. `RC` ver. does not require UMM to play.
 
 ## Requirements
 
-Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.1` (R2.6)<br/>
-[UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (since R2.4)
+Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.1` (R2.6) / `0.9.0.10` (R2.7)<br/>
+[UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (optional since R2.7)
 
 ## Changelog
 
@@ -88,4 +87,9 @@ Removed the crutches from the code responsible for loading palettes. Now the Mod
 - `Ricordi` for for continuing @HY's work on sprite redrawing and other visual stuff.
 
 </details>
+
+Nun Outfit mod deployed:
+
+[![preview](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/51232db6-a1a1-4105-9d0b-bb54e25fc597)](https://github.com/Sawapine/LonaRPG_Booba/files/15139612/Nun.Outfit_Re.61.zip)
+
 

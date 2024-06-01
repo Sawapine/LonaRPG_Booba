@@ -5,14 +5,14 @@
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.
 
-Latest version: **R2.7**
+Latest version: **R2.8**
 
 **RC2.3.x** is intended for those who are solely interested in visual changes to Lona, without the addition of new heavy script mechanics, items, etc.
 All subsequent versions of the mod starting with `RC` will imply only cosmetic changes. `RC` ver. does not require UMM to play.
 
 ## Requirements
 
-Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.1` (R2.6) / `0.9.0.10` (R2.7)<br/>
+Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.1` (R2.6) / `0.9.0.10` (R2.8)<br/>
 [UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (optional since R2.7)
 
 ## Changelog

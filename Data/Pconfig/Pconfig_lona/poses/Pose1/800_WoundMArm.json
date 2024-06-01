@@ -1,0 +1,41 @@
+[{
+	"name_order" :["subpose","WoundMArm"],
+	"part_name": "pose1_subpose1_WoundMArm",
+	"x": "4",
+	"y": "175",
+	"layer": 191,
+	"bmps": {
+		"subpose01,WoundMArm01": "pose1_subpose1_WoundMArm1.png",
+		"subpose01,WoundMArm02": "pose1_subpose1_WoundMArm2.png",
+		"subpose01,WoundMArm03": "pose1_subpose1_WoundMArm3.png",
+		"subpose01,WoundMArm04": "pose1_subpose1_WoundMArm3.png"
+	}
+},
+{
+	"name_order" :["subpose","WoundMArm"],
+	"part_name": "pose1_subpose2_WoundMArm",
+	"x": "92",
+	"y": "167",
+	"layer": 800,
+	"bmps": {
+		"subpose02,WoundMArm01": "pose1_subpose2_WoundMArm1.png",
+		"subpose02,WoundMArm02": "pose1_subpose2_WoundMArm2.png",
+		"subpose02,WoundMArm03": "pose1_subpose2_WoundMArm3.png",
+		"subpose02,WoundMArm04": "pose1_subpose2_WoundMArm3.png"
+	}
+},
+
+{
+	"name_order" :["subpose","WoundMArm"],
+	"part_name": "pose1_subpose3_WoundMArm",
+	"x": "69",
+	"y": "150",
+	"layer": 191,
+	"bmps": {
+		"subpose03,WoundMArm01": "pose1_subpose3_WoundMArm1.png",
+		"subpose03,WoundMArm02": "pose1_subpose3_WoundMArm2.png",
+		"subpose03,WoundMArm03": "pose1_subpose3_WoundMArm3.png",
+		"subpose03,WoundMArm04": "pose1_subpose3_WoundMArm3.png"
+	}
+}
+]

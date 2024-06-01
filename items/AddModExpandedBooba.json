@@ -1,0 +1,25 @@
+{
+	"item_name": "AddModExpandedBooba",
+	"weight": "1",
+	"price": 12000,
+	"tag_main_settings": {
+        "type": "SurgeryCoupon",
+        "tag": "SurgeryTricket",
+        "consumable": true,
+        "key_item": false
+	},
+	"textFlag": {
+			"folder": "ModScripts/_Mods/Lona_Booba_Graphics/text",
+			"name": "booba:AddModExpandedBooba/item_name",
+			"description": "booba:AddModExpandedBooba/description"
+		},
+	"icon_index": "ModScripts/_Mods/Lona_Booba_Graphics/items/icons/AddModExpandedBooba.png",
+	
+	"player_item_usage_manage_state": [
+        {
+		"tar_state_name": ["1", "ExpandedBooba"],
+		"chance_max": 100,
+		"chance_req": 0 
+		}
+   	]
+}

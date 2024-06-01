@@ -1,0 +1,32 @@
+[{
+		"name_order": ["subpose", "MilkSplash"],
+		"part_name": "pose1_subpose1_MilkSplash",
+		"x": "-18",
+		"y": "202",
+		"layer": 2550,
+		"bmps": {
+			"subpose01,MilkSplash01": "pose1_subpose1_MilkSplash.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "MilkSplash"],
+		"part_name": "pose1_subpose2_MilkSplash",
+		"x": "23",
+		"y": "207",
+		"layer": 2550,
+		"bmps": {
+			"subpose02,MilkSplash01": "pose1_subpose2_MilkSplash.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "MilkSplash"],
+		"part_name": "pose1_subpose3_MilkSplash",
+		"x": "-21",
+		"y": "204",
+		"layer": 2550,
+		"bmps": {
+			"subpose03,MilkSplash01": "pose1_subpose3_MilkSplash.png"
+		}
+	}
+]

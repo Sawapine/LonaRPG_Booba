@@ -1,0 +1,75 @@
+[{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "pose5_subpose1_equip_AdvMidExtra",
+		"x": "104",
+		"y": "134",
+		"layer": 1850,
+		"bmps": {
+			"subpose01,preg00,equip_MidExtra#AdvMidExtra": "pose5_subpose1_equip_AdvMidExtra.png",
+			"subpose01,preg01,equip_MidExtra#AdvMidExtra": "pose5_subpose1_preg4m_equip_AdvMidExtra.png",
+			"subpose01,preg02,equip_MidExtra#AdvMidExtra": "pose5_subpose1_preg6m_equip_AdvMidExtra.png",
+			"subpose01,preg03,equip_MidExtra#AdvMidExtra": "pose5_subpose1_preg8m_equip_AdvMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "pose5_subpose1_equip_RagMidExtra",
+		"x": "43",
+		"y": "247",
+		"layer": 1850,
+		"bmps": {
+			"subpose01,preg00,equip_MidExtra#RagMidExtra": "pose5_subpose1_equip_RagMidExtra.png",
+			"subpose01,preg01,equip_MidExtra#RagMidExtra": "pose5_subpose1_preg4m_equip_RagMidExtra.png",
+			"subpose01,preg02,equip_MidExtra#RagMidExtra": "pose5_subpose1_preg6m_equip_RagMidExtra.png",
+			"subpose01,preg03,equip_MidExtra#RagMidExtra": "pose5_subpose1_preg8m_equip_RagMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "pose5_subpose1_equip_SurMidExtra",
+		"x": "92",
+		"y": "220",
+		"layer": 1850,
+		"bmps": {
+			"subpose01,preg00,equip_MidExtra#SurMidExtra": "pose5_subpose1_equip_SurMidExtra.png",
+			"subpose01,preg01,equip_MidExtra#SurMidExtra": "pose5_subpose1_preg4m_equip_SurMidExtra.png",
+			"subpose01,preg02,equip_MidExtra#SurMidExtra": "pose5_subpose1_preg6m_equip_SurMidExtra.png",
+			"subpose01,preg03,equip_MidExtra#SurMidExtra": "pose5_subpose1_preg8m_equip_SurMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "pose5_subpose1_equip_FootmanMidExtra",
+		"x": "99",
+		"y": "146",
+		"layer": 1850,
+		"bmps": {
+			"subpose01,preg00,equip_MidExtra#FootmanMidExtra": "pose5_subpose1_equip_FootmanMidExtra.png",
+			"subpose01,preg01,equip_MidExtra#FootmanMidExtra": "pose5_subpose1_equip_FootmanMidExtra.png",
+			"subpose01,preg02,equip_MidExtra#FootmanMidExtra": "pose5_subpose1_equip_FootmanMidExtra.png",
+			"subpose01,preg03,equip_MidExtra#FootmanMidExtra": "pose5_subpose1_preg8m_equip_FootmanMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "pose5_subpose1_equip_SlaveMidExtra",
+		"x": "95",
+		"y": "236",
+		"layer": 1850,
+		"bmps": {
+			"subpose01,preg00,equip_MidExtra#SlaveMidExtra": "pose5_subpose1_equip_SlaveMidExtra.png",
+			"subpose01,preg01,equip_MidExtra#SlaveMidExtra": "pose5_subpose1_preg4m_equip_SlaveMidExtra.png",
+			"subpose01,preg02,equip_MidExtra#SlaveMidExtra": "pose5_subpose1_preg6m_equip_SlaveMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "pose5_subpose1_equip_SlaveMidExtra",
+		"x": "97",
+		"y": "251",
+		"layer": 1850,
+		"bmps": {
+			"subpose01,preg03,equip_MidExtra#SlaveMidExtra": "pose5_subpose1_preg8m_equip_SlaveMidExtra.png"
+		}
+	}
+]

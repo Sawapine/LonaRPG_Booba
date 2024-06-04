@@ -5,7 +5,7 @@
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.
 
-Latest version: **R2.8**
+Latest version: **R2.8.1**
 
 **RC2.3.x** is intended for those who are solely interested in visual changes to Lona, without the addition of new heavy script mechanics, items, etc.
 All subsequent versions of the mod starting with `RC` will imply only cosmetic changes. `RC` ver. does not require UMM to play.
@@ -73,6 +73,36 @@ Made sprites with partial transparency even more transparent to match their orig
 - **R2.5.3**
 
 Removed the crutches from the code responsible for loading palettes. Now the Mod should work more correctly with custom palettes, however, additional actions for this are still necessary (see the example in 100_DESU_Body_BOOBA.json in the Lona_Booba_Graphics/PaletteChanger/unactive_jsons/DESU folder).
+
+- **R2.6**
+
+Increased nipple size.
+
+Made some visual tweaks to the clothing. 
+
+'Delegated' functionality for state.name, state.description, and state.icon_index to JSON files. 
+
+Minor changes in folder structure. 
+
+- R2.6 (0905)
+
+hotfix for 0.9.0.5 update.
+
+- **R2.7**
+
+Restructured the mod to ensure proper compatibility with update 0.9.0.10 (main script, JSON files, folder structure, etc.)
+
+Slightly tweaked the nipples of *pose1.
+
+Fixed game crashes when `AddBooba` and `AidBooba` items are dropped.
+
+For this version, the strict requirement of installing UltraModManager has been removed: now UMM is optional (this decision requires further review.)
+
+- **R2.8.1**
+
+Added Slave outfit support.
+
+Breast sprites are now displayed in the SexStats Menu.
 
 </details>
 

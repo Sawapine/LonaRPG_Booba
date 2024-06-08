@@ -120,6 +120,7 @@ Breast sprites are now displayed in the SexStats Menu.
 
 Nun Outfit mod deployed:
 
-[![preview](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/51232db6-a1a1-4105-9d0b-bb54e25fc597)](https://github.com/Sawapine/LonaRPG_Booba/files/15139612/Nun.Outfit_Re.61.zip)
+[![preview](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/51232db6-a1a1-4105-9d0b-bb54e25fc597)](https://github.com/user-attachments/files/15748968/Nun.Outfit_Re.64.zip)
+
 
 

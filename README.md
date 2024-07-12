@@ -1,18 +1,19 @@
 # LonaRPG Booba Mod
 
-![preview](https://github.com/Sawapine/LonaRPG_Booba/assets/106891482/a8e70941-aecd-4f29-a59b-a613b7607456)
+![2 9](https://github.com/user-attachments/assets/2ad1cc05-a081-4843-aee5-92ca37b6d7c6)
+
 
 
 A mod for the game LonaRPG, adding the ability to increase the size of the breasts with the help of genetic modification in the store at Elise.
 
-Latest version: **R2.8.1**
+Latest version: **R2.9**
 
 **RC2.3.x** is intended for those who are solely interested in visual changes to Lona, without the addition of new heavy script mechanics, items, etc.
 All subsequent versions of the mod starting with `RC` will imply only cosmetic changes. `RC` ver. does not require UMM to play.
 
 ## Requirements
 
-Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.1` (R2.6) / `0.9.0.17` (R2.8.1)<br/>
+Minimum required game version: `0.8.7.x` (R2.4) / `0.8.9.1` (R2.6) / `0.9.0.17` (R2.9)<br/>
 [UltraModManager](https://mega.nz/folder/FzdxST7a#SRSft4Jj27Tu_jL5O_3RXQ) (optional since R2.7)
 
 ## Changelog

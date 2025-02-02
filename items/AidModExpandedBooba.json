@@ -9,9 +9,8 @@
         "key_item": false
 	},
 	"textFlag": {
-			"folder": "ModScripts/_Mods/Lona_Booba_Graphics/text",
-			"name": "booba:AidModExpandedBooba/item_name",
-			"description": "booba:AidModExpandedBooba/description"
+			"name": "booba:booba:AidModExpandedBooba/item_name",
+			"description": "booba:booba:AidModExpandedBooba/description"
 		},
 	"icon_index": "ModScripts/_Mods/Lona_Booba_Graphics/items/icons/AidModExpandedBooba.png",
 	

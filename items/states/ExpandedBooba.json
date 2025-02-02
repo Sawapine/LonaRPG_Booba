@@ -1,6 +1,7 @@
 {
 	"item_name": "ExpandedBooba",
 	"icon_index": "ModScripts/_Mods/Lona_Booba_Graphics/items/icons/Mod_ExpandedBooba.png",
+	"max_stacks": 1,
 	"lonaStat_json_hash": {
 			"stat": "ExpandedBooba",
 			"value": null,
@@ -12,16 +13,21 @@
         "tag": "magenta"
     },
 	"textFlag": {
-			"folder": "ModScripts/_Mods/Lona_Booba_Graphics/text",
-			"name": "booba:Mod_ExpandedBooba/item_name",
-			"description": "booba:Mod_ExpandedBooba/description"
+			"name": "booba:booba:Mod_ExpandedBooba/item_name",
+			"description": "booba:booba:Mod_ExpandedBooba/description"
 		},
   "attribute_change": [
   {
       "attribute_name": "sexy",
       "attribute_type": "max",
+      "adjustor": "*",
+      "adjustment": "2.25"
+    },
+	{
+      "attribute_name": "sexy",
+      "attribute_type": "max",
       "adjustor": "+",
-      "adjustment": "30"
+      "adjustment": "20"
     },
     {
       "attribute_name": "weak",
@@ -63,7 +69,7 @@
 		"attribute_name": "move_speed",
 		"attribute_type": "max",
 		"adjustor": "-",
-		"adjustment": "0.25"
+		"adjustment": "0.2"
 	}
   ]
 }

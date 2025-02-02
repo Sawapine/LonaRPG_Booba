@@ -1,4 +1,4 @@
-Booba (R2.8 for v0.9.0.10+; [use R2.6 for 0.8.9.0 or R2.3 for older ver of the game])
+Booba (R2.9p1.3 for v0.9.6+; [use R2.6 for 0.8.9.0 or R2.3 for older ver of the game])
 
 Big thanks to:
 @HY from arca.live for Base body sprites set and Hunter outfit.

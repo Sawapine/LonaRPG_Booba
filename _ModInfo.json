@@ -1,0 +1,12 @@
+{
+  "id": "booba",
+  "version": "R2.9p1.3",
+  "name": "Lona Big Boobs",
+  "description": "$booba:booba:mod/description",
+  "texts": "text",
+  "requires": {
+	  "LonaRPG": [">=", 0.960]
+  },
+  "before": [],
+  "thumbnail": "preview.png"
+}

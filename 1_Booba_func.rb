@@ -6,37 +6,52 @@ module DataManager
   def self.load_mod_database
     load_mod_database_Lona_Booba_Graphics
 	
-	modFolder = "ModScripts/_Mods/Lona_Booba_Graphics/"
+    modFolder = "ModScripts/_Mods/Lona_Booba_Graphics/"
 	
-	FileGetter.load_mod_EventLib("#{modFolder}MapBB001.rvdata2")
+    evLibHash = FileGetter.load_mod_EventLib("#{modFolder}MapBB001.rvdata2")
 
     $data_states << RPG::State.new
-		$data_states.last.id = $data_states.length-1
-		$data_states.last.load_additional_data("#{modFolder}items/states/ExpandedBooba.json")
+    $data_states.last.id = $data_states.length-1
+    $data_states.last.load_additional_data("#{modFolder}items/states/ExpandedBooba.json")
 	
     $data_items << RPG::Item.new #make new empty item
-		$data_items.last.id = $data_items.length-1 #create item ID to last array length
-		$data_items.last.load_additional_data("#{modFolder}items/AddModExpandedBooba.json")
+    $data_items.last.id = $data_items.length-1 #create item ID to last array length
+    $data_items.last.load_additional_data("#{modFolder}items/AddModExpandedBooba.json")
 			
-	$data_items << RPG::Item.new #make new empty item
-		$data_items.last.id = $data_items.length-1 #create item ID to last array length
-		$data_items.last.load_additional_data("#{modFolder}items/AidModExpandedBooba.json")
-
-    $mod_load_script["Data/HCGframes/event/NoerGynecologyEliseDay.rb"] = "ModScripts/_Mods/Lona_Booba_Graphics/Data/HCGframes/event/NoerGynecologyEliseDay.rb"
+    $data_items << RPG::Item.new #make new empty item
+    $data_items.last.id = $data_items.length-1 #create item ID to last array length
+    $data_items.last.load_additional_data("#{modFolder}items/AidModExpandedBooba.json")
 	
-	palette_list = Dir.glob('ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/*.json')
-    palette_list.reverse!
+    $data_EventLib = $data_EventLib.merge(evLibHash) #merge EvLib Hash	
+	
+    palette_list = Dir.glob("ModScripts/_Mods/Lona_Booba_Graphics/PaletteChanger/*.json")
     palette_list.each do |json_path|
-      BitmapChanger.load_setting_file(json_path)
+    BitmapChanger.load_setting_file(json_path)
     end
+
+# Add new items to barter
+if $data_barters["NoerGynecologyEliseDay"]
+  new_items = [
+    { "item_name" => "AddModExpandedBooba", "price" => "itemPrice", "amount"=>1 },
+    { "item_name" => "AidModExpandedBooba", "price" => "itemPrice", "amount"=>1 }
+  ]
+
+  new_items.each do |item|
+    unless $data_barters["NoerGynecologyEliseDay"]["items"].any? { |i| i["item_name"] == item["item_name"] }
+      $data_barters["NoerGynecologyEliseDay"]["items"] << item
+    end
+  end
+end
+
   end
 end
 
 
 
+
 module FileGetter
 
-MOD_FOLDER = "ModScripts/_Mods/Lona_Booba_Graphics/"
+  MOD_FOLDER = "ModScripts/_Mods/Lona_Booba_Graphics/"
 
   def self.preprocess_lona_booba_pose_json(lona_json, booba_json)
     json = []
@@ -54,6 +69,12 @@ MOD_FOLDER = "ModScripts/_Mods/Lona_Booba_Graphics/"
           else
             pose["bmps"]["#{k},ExpandedBooba01"] = v
           end
+          # ---- Проверка для второго стэка ExpandedBooba
+          #if File.exist? "#{MOD_FOLDER}Graphics/Portrait/LonaXL/#{v}"
+          #  pose["bmps"]["#{k},ExpandedBooba02"] = "../../../#{MOD_FOLDER}Graphics/Portrait/LonaXL/#{v}"
+          #else
+          #  pose["bmps"]["#{k},ExpandedBooba02"] = v
+          #end
         end
       end
     end
@@ -65,11 +86,16 @@ MOD_FOLDER = "ModScripts/_Mods/Lona_Booba_Graphics/"
       pose["bmps"] = {}
       old_bmps.each_pair do |k, v|
         if File.exist? "#{MOD_FOLDER}Graphics/Portrait/Lona/#{v}"
-          pose["bmps"]["#{k},ExpandedBooba01"] =
-            "../../../#{MOD_FOLDER}Graphics/Portrait/Lona/#{v}"
+          pose["bmps"]["#{k},ExpandedBooba01"] = "../../../#{MOD_FOLDER}Graphics/Portrait/Lona/#{v}"
         else
           pose["bmps"]["#{k},ExpandedBooba01"] = v
         end
+        # ---- Проверка для второго стэка ExpandedBooba
+        #if File.exist? "#{MOD_FOLDER}Graphics/Portrait/LonaXL/#{v}"
+        #  pose["bmps"]["#{k},ExpandedBooba02"] = "../../../#{MOD_FOLDER}Graphics/Portrait/LonaXL/#{v}"
+        #else
+        #  pose["bmps"]["#{k},ExpandedBooba02"] = v
+        #end
       end
     end
     json
@@ -129,4 +155,23 @@ MOD_FOLDER = "ModScripts/_Mods/Lona_Booba_Graphics/"
     prp "Data/lona_parts.rvdata2 written" if FileGetter::WRITING_LIST
     return [name_order, partsHash]
   end
+end
+
+
+
+
+#sexStats hack by eccma417
+
+class Menu_SexStats < Menu_ContentBase
+    alias draw_meters_Lona_Booba_Graphics draw_meters
+    def draw_meters
+        draw_meters_Lona_Booba_Graphics
+        if @actor.stat["ExpandedBooba"] && @actor.stat["ExpandedBooba"] >= 1
+            bobaIndex = 0 #because draw_icon_32 is custom graphics. and only 1 row
+            icon32_booba_mod = Cache.system("../../ModScripts/_Mods/Lona_Booba_Graphics/Graphics/System/32px_booba_layer.png")
+            icon32_booba_melainin_mod = Cache.system("../../ModScripts/_Mods/Lona_Booba_Graphics/Graphics/System/32px_melanin_layer.png")
+            draw_icon_32(icon32_booba_mod, @back.bitmap, semenMeterData[:Body][0], semenMeterData[:Body][1] + 21, body_values[bobaIndex])
+            draw_icon_32(icon32_booba_melainin_mod, @back.bitmap, semenMeterData[:Body][0], semenMeterData[:Body][1] + 21, body_values[bobaIndex],@actor.melaninNipple.to_i)
+        end
+    end
 end

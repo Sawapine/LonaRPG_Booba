@@ -1,6 +1,8 @@
 mod/description
-\C[9]Not compatible with_: \C[8]the Lona_Big_Belly mod, GtcSetMod, Armored Lona,
-\n: or any other clothing/accessory mods designed for use with Lona's default body.
+\C[9]Not compatible with: \C[8]Lona_Big_Belly mod, GtcSetMod, Armored Lona or other clothing/accessory mods designed for use with Lona's default body. 
+\n
+\n
+\} \C[5]Minimum required game ver. 0.96x
 
 AddModExpandedBooba/item_name
 MOD (Booba)

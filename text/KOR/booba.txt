@@ -1,5 +1,9 @@
 mod/description
-기본 몸체인 Lona의 Lona_Big_Belly 모드, GtcSetMod 또는 기타 의류/액세서리 모드와 호환되지 않습니다.
+mod/description
+\C[9]Not compatible with: \C[8]Lona_Big_Belly mod, GtcSetMod, Armored Lona or other clothing/accessory mods designed for use with Lona's default body. 
+\n
+\n
+\} \C[5]Minimum required game ver. 0.96x
 
 AddModExpandedBooba/item_name
 MOD (Booba)
